@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>To Do App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            #buttons{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 50vh;
+                width: 100vw;
+            }
+            button{
+                padding:10px;
+                margin: 10px;
+                color: black;
+                background-color: white;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                width: 200px;
+                font-size: 1em;
+                box-shadow: 5px 5px rgb(95, 95, 211);
+            }
+            button:hover{
+                color: white;
+                font-family: 'Courier New', Courier, monospace;
+                background-color: black;
+                box-shadow: 5px 5px rgb(77, 77, 180);
+            }
+           table,th,td{
+                text-align: center;
+                width: 80vw;
+                font-size: 1em;
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            #output{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">ToDo App</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Todo List</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+              </ul>
+            </div>
+          </nav>
+          <div id="output">
+          </div>
+          <script src="ajaxhw.js" async defer></script>
+        <script src="" async defer></script>
+    </body>
+</html>
